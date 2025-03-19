@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: '@project.artifactId@'
+    version: '@project.version@'
+  datasource:
+    url: jdbc:postgresql://localhost:5434/automovilesUtrera
+    username: root
+    password: root
+    driver-class-name: org.postgresql.Driver
